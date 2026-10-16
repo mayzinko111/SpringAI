@@ -1,0 +1,11 @@
+spring:
+  app:
+    name: openAI
+  ai:
+    model:
+      chat: ollama
+    ollama:
+      chat:
+        model: phi3:latest
+    openai:
+      apiKey: ${OPENAI_API_KEY}
